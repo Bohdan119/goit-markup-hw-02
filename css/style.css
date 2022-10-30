@@ -1,7 +1,7 @@
 /*----------Root---------*/ 
 :root{
 --font-ral:"Raleway", sans-serif;
---font-rob:"Roboto";
+--font-rob:"Roboto", sans-serif;
 
 --font-weig:500;
 --font-weig-b:700;
@@ -9,7 +9,6 @@
 --color-change:#2196F3;
 --color-web:#2196F3;
 --color-studio:#000000;
---color-navig:#212121;
 --color-link:#757575;
 
 --line-nav:1.14;
@@ -25,15 +24,14 @@
     font-family: "Roboto";
     font-size: 400;
     width: 1600px;
-    height: auto;
     background: #FFFFFF;
+    color:#212121;
 }
 
 
 /*----------HEADER---------*/ 
 
 .header{
-    margin-top: 0;
     width: 1600px;
     left: 0px;
     top: 0px; 
@@ -61,7 +59,6 @@ color:var(--color-web);
 }
 
 .header-navigation{
-    font-family:var(--font-rob);
     font-weight: var(--font-weig);
     font-size: 14px;
     line-height:var(--line-nav);
@@ -89,7 +86,6 @@ color:var(--color-web);
 
 .contact-tel{
 text-decoration: none;
-font-family: var(--font-rob);
 font-weight:var(--font-weig);
 font-size: 14px;
 line-height:var(--line-nav);
@@ -109,20 +105,19 @@ color:var(--color-link);
     background-color: #2F303A;
 }
 .main-heroy{
-    font-family:var(--font-rob);
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 / 44);
+    line-height: 1.33;
     color: #FFFFFF;
 
 }
 
 .main-button{
-font-family:var(--font-rob);
 font-weight:var(--font-weig-b);
 font-size: 16px;
-line-height: calc(30/16) 30px;
+line-height: 1.875;
 background-color: #2196F3;
+cursor: pointer;
 }
 
 /*----------SKILLS---------*/ 
@@ -142,12 +137,12 @@ font-weight:var(--font-weig-b);
 font-size: 14px;
 line-height:var(--line-nav);
 letter-spacing: 0.03em;
-color:var(--color-navig);;
+color: #212121;
 }
 
 .skill-list,p{
 font-size: 14px;
-line-height: calc(24/14);
+line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--color-link);
 }
@@ -160,13 +155,11 @@ color: var(--color-link);
 }
 
 .work-title{
-font-family: var(--font-rob);
 font-weight:var(--font-weig-b);
 font-size: 36px;
-line-height: calc(42/36);
+line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--color-navig);;
 }
 .work-image{
 list-style: none;
@@ -175,15 +168,15 @@ list-style: none;
 /*----------TEAM---------*/ 
 
 .team{
+background-color: #F5F4FA;
 }
 
 .team-title{
 font-weight:var(--font-weig-b);
 font-size: 36px;
-line-height: calc(42/36);
+line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
-color:var(--color-navig);;
 }
 .team-cards{
 
@@ -191,28 +184,27 @@ color:var(--color-navig);;
 .team-list{
     list-style: none;
 }
-
-.team-image,h3 {
-    font-weight:var(--font-weig);
-    font-size: 16px;
-    line-height: calc(19/16);
-    letter-spacing: 0.03em;
-    color:var(--color-navig);;
+.team-list,h3{
+font-family:var(--font-weig);
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
 }
-.team-image,p{
-    font-size: 16px;
-    line-height: calc(19/16);
-    letter-spacing: 0.03em;
-    color:var(--color-link);
+.team-list,p{
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /*----------FOOTER---------*/ 
 
 .footer{
 background-color: #2F303A;
-margin-top: 2900px;
+margin-top: 2850px;
 width: 1600px;
 height: 250px;
+
 }
 
 .footer-studio{
@@ -221,7 +213,7 @@ font-weight:var(--font-weig-b);
 font-size: 26px;
 line-height:var(--line-logo);
 letter-spacing: 0.03em;
-color:var(--color-studio);
+color:#FFFFFF;
 text-decoration: none;
 }
 
@@ -232,6 +224,9 @@ font-size: 26px;
 line-height:var(--line-logo);
 letter-spacing: 0.03em;
 color:var(--color-web);
+}
+.addres{
+    font-style: normal;
 }
 .footer-addres{
 font-size: 14px;
@@ -259,18 +254,4 @@ color: var(--color-link);
 .footer-mail:hover,
 .footer-tel:focus{
 color:var(--color-change);
-}
-
-
-/*  */
-
-
-.footer-contacts {
-}
-
-.footer-list {
-}
-.footer-mail {
-}
-.footer-tel {
 }
