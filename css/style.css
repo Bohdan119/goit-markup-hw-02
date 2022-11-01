@@ -70,14 +70,13 @@ letter-spacing: 0.02em;
 
 }
 
-.header-list{
-list-style: none;
+.header-list
+{list-style: none;}
+
+.link{
+text-decoration:none;
 color: var(--color-link);
 }
-.header-list a{
-color:var(--color-link);
-}
-.link{text-decoration:none;}
 
 .link:hover,
 .link:focus{
@@ -99,23 +98,22 @@ color: var(--color-change);
 
 
 /*----------HEROY---------*/ 
-.single-file{
-width: 1600px;
-height:250px;
-background-color:var(--color-bckg);
-}
 .main-heroy{
+background-color: var(--color-bckg);
+}
+
+.heroy-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.33;
 color:var(--color-white);
-
 }
 
 .main-button{
 font-weight:var(--font-weig-b);
 font-size: 16px;
 line-height: 1.875;
+letter-spacing: 0.06em;
 background-color:var(--color-change);
 color: var(--color-white);
 cursor: pointer;
@@ -142,7 +140,7 @@ line-height:var(--line-nav);
 color:var(--color-link);
 }
 
-.skill-list,p{
+.skill-list p{
 font-size: 14px;
 line-height: 1.714;
 color:var(--color-main);
@@ -175,7 +173,8 @@ background-color: #F5F4FA;
 {list-style: none;}
 
 .team-title{
-font-family:var(--font-weig);
+font-weight:var(--font-weig);
+font-size: 16px;
 line-height: 1.187;
 color:var(--color-link);
 }
@@ -189,10 +188,6 @@ line-height:1.1718;
 
 .footer{
 background-color:var(--color-bckg);
-margin-top: 2850px;
-width: 1600px;
-height: 250px;
-
 }
 
 .footer-studio{
@@ -231,13 +226,13 @@ line-height: 1.714;
 
 }
 .footer-mail:hover,
-.footer-tel:focus{
+.footer-mail:focus{
 color:var(--color-change);
 }
 
 /*----------PORTFOLIO---------*/ 
 
-.portfolio-title
+.portfolio-main-title
 {display: none;}
 
 .button-filter
@@ -267,12 +262,13 @@ color: var(--color-white);
 .portfolio-image
 {list-style: none;}
 
-.portfolio-image,h2{
+.portfolio-title{
 font-weight:var(--font-weig-b);
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color:var(--color-link);
 }
-.portfolio-image,p
+
+.portfolio-text
 {line-height: 1.875;}
